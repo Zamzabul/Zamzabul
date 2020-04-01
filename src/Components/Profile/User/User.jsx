@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Profile.module.css';
+import styles from './User.module.css';
 
-const Profile = () => {
+const User = () => {
     return (
         <div className={styles.profile}>
             <div>
@@ -11,4 +11,4 @@ const Profile = () => {
     )
 }
 
-export default Profile;
+export default User;

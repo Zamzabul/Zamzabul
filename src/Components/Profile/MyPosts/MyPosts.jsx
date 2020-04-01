@@ -15,13 +15,13 @@ const MyPosts = () => {
             </div>
             <div className={styles.posts}>
                 <div>
-                    <Post text='post1' />
+                    <Post message='post1' />
                 </div>
                 <div>
-                    <Post text='post2' />
+                    <Post message='post2' />
                 </div>
                 <div>
-                    <Post text='post3' />
+                    <Post message='post3' />
                 </div>
             </div>
         </div>

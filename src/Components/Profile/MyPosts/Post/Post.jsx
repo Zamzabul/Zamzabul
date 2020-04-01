@@ -5,7 +5,7 @@ const Post = (props) => {
     return (
         <div className={styles.post}>
             <img src='.\userpick.png'/>
-            {props.text}
+            {props.message}
         </div>
     )
 }

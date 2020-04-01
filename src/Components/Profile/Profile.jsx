@@ -1,16 +1,16 @@
 import React from 'react';
-import styles from './Content.module.css';
+import styles from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts';
-import Profile from './Profile/Profile';
+import User from './User/User';
 
-const Content = () => {
+const Profile = () => {
     return (
         <div className={styles.content}>
             <div>
                 <img src='.\curves.jpg' />
             </div>
             <div>
-                <Profile/>
+                <User/>
             </div>
             <div>
                 <MyPosts/>
@@ -19,4 +19,4 @@ const Content = () => {
     );
 }
 
-export default Content;
+export default Profile;
