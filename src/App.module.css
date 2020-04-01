@@ -9,3 +9,7 @@
     grid-gap: 10px;
     width: 1400px;
 }
+.appWrapperContent {
+    grid-area: content;
+    background-color: rgb(85, 113, 124);
+}
