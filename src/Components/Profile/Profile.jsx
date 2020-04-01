@@ -10,10 +10,12 @@ const Profile = () => {
                 <img src='.\curves.jpg' />
             </div>
             <div>
-                <User/>
-            </div>
-            <div>
-                <MyPosts/>
+                <div>
+                    <User />
+                </div>
+                <div>
+                    <MyPosts />
+                </div>
             </div>
         </div>
     );
