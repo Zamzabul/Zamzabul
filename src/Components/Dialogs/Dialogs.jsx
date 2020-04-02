@@ -3,10 +3,10 @@ import styles from './Dialogs.module.css';
 import { NavLink } from 'react-router-dom';
 import Conversations from './Conversations/Conversations';
 
-const Dialogs = () => {
+const Dialogs = (props) => {
     return (
         <div className={styles.dialogs}>
-            <Conversations/>
+            <Conversations conversationsData={props.conversationsData}/>
         </div>
     )
 }

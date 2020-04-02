@@ -3,7 +3,7 @@ import styles from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts';
 import User from './User/User';
 
-const Profile = () => {
+const Profile = (props) => {
     return (
         <div className={styles.content}>
             <div>
@@ -14,7 +14,7 @@ const Profile = () => {
                     <User />
                 </div>
                 <div>
-                    <MyPosts />
+                    <MyPosts postsData={props.postsData}/>
                 </div>
             </div>
         </div>
