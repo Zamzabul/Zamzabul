@@ -1,0 +1,17 @@
+.superConversation {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+.conversation {
+    padding: 10px;
+}
+.conversation a {
+    color: black;
+    text-decoration: none;
+}
+.conversation a.activeLink {
+    color: whitesmoke;
+}
+.conversation a:active {
+    color: white;
+}
