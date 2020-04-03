@@ -8,7 +8,7 @@ const Conversations = (props) => {
                                                                         messages={props.state.messages}/>);
     return (
         <div className={styles.conversations}>
-            {conversationsElements}
+                {conversationsElements}
         </div>
     )
 }
