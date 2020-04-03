@@ -14,8 +14,24 @@ let postsData = [
     { postId: 2, message: 'post 2' },
     { postId: 3, message: 'post 3' }
 ]
+let messagesData = [
+    [
+        {text: 'aaa'},
+        {text: 'aaa'}
+    ],
+    [
+        {text: 'bbb'},
+        {text: 'bbb'}
+    ],
+    [
+        {text: 'ccc'},
+        {text: 'ccc'}
+    ]
+]
 
-ReactDOM.render(<App conversationsData={conversationsData} postsData={postsData}/>, document.getElementById('root'));
+ReactDOM.render(<App conversationsData={conversationsData} 
+                     postsData={postsData}
+                     messagesData={messagesData}/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
