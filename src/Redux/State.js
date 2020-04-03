@@ -30,4 +30,12 @@ let state = {
     sideBar: []
 }
 
+export let addPost = (textMessage) => {
+    let post = {
+        postId: 4,
+        Message: textMessage
+    }
+    state.profilePage.posts.push(post);
+}
+
 export default state;
