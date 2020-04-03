@@ -12,7 +12,7 @@ const Conversation = (props) => {
                 <NavLink to={path} activeClassName={styles.activeLink}>{props.name}</NavLink>
             </div>
             <div>
-                <Route path={path} render={() => <Messages messagesElements={props.messagesData[msgId]}/>}/>
+                <Route path={path} render={() => <Messages messagesElements={props.messages[msgId]}/>}/>
             </div>
         </div>
     )

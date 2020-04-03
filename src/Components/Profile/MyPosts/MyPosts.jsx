@@ -3,7 +3,7 @@ import styles from './MyPosts.module.css';
 import Post from './Post/Post';
 
 const MyPosts = (props) => {
-    let postsElements = props.postsData.map(post => <Post postId={post.postId} message={post.postId}/>);
+    let postsElements = props.posts.map(post => <Post postId={post.postId} message={post.postId}/>);
     return (
         <div className={styles.myposts}>
             <div>

@@ -6,8 +6,7 @@ import Conversations from './Conversations/Conversations';
 const Dialogs = (props) => {
     return (
         <div className={styles.dialogs}>
-            <Conversations conversationsData={props.conversationsData}
-                           messagesData={props.messagesData}/>
+            <Conversations state={props.state}/>
         </div>
     )
 }
